@@ -313,7 +313,7 @@ const Auth = () => {
                       <Input
                         id="vendor-name"
                         type="text"
-                        placeholder="John Doe"
+                        placeholder="Aaron kwesiga"
                         value={fullName}
                         onChange={(e) => setFullName(e.target.value)}
                         required
@@ -324,7 +324,7 @@ const Auth = () => {
                       <Input
                         id="vendor-phone"
                         type="tel"
-                        placeholder="+256 7XX XXX XXX"
+                        placeholder="+256 787 681 706"
                         value={phone}
                         onChange={(e) => setPhone(e.target.value)}
                         required
